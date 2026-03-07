@@ -1,0 +1,136 @@
+HTTP/1.1 200 OK
+Date: Tue, 17 Feb 2026 16:08:44 GMT
+Server: Apache/2.2.22 (Ubuntu)
+X-Powered-By: PHP/5.3.10-1ubuntu3.26
+Set-Cookie: PHPSESSID=REDACTED; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 5766
+Content-Type: text/html; charset=iso-8859-7
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="template/default.css" type="text/css">
+<link rel="SHORTCUT ICON" href="images/favicon.ico">
+<title>VulnUni eClass</title><meta name="description" content="elearning platform">
+<meta name="keywords" content="eclass, elearning, asynchronous teleteaching, gunet e-class, open cms, gunet">
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-7">	
+</head>
+<table width="800" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+  <td colspan="5" align="right" valign=top width=800 height=90 bgcolor="#004571" style="background-image:url(/vulnuni-eclass/images/gunet/banner.jpg)" class="td_banner">
+
+<span>&nbsp;</span>
+</td></tr>
+<tr><td colspan="2" valign="top" align="left" class=td_navbar style="background-image:url(/vulnuni-eclass/images/bg.gif)"><b><span class="menu">
+Home Page
+</span></b><br></td></tr> 
+<tr valign="top">       <td class=td_menu>
+          <br>
+            <table cellpadding='4' cellspacing='0' width='100%' border=0>
+            <tr>
+              <td class='menu'>
+              <img src='images/arrow.gif'>
+              <a href='modules/auth/listfaculte.php' class='mainpage'>List all courses</a>
+              </td>
+            </tr>
+            <tr>
+              <td class='menu'>
+              <img src='images/arrow.gif'>
+              <a href='http://vulnuni.local/vulnuni-eclass/modules/auth/formuser.php' class='mainpage'>New user registration</a></td></tr>
+            <tr>
+              <td class='menu'>
+              <img src='images/arrow.gif'>
+              <a href='modules/auth/formprof.php' class='mainpage'>Professor account request</a>
+              </td>
+            </tr>
+            <tr>
+              <td class='menu'>
+              <img src='images/arrow.gif'>
+              <a href='manuals/manual.php' class='mainpage'>Available manuals</a>
+              </td>
+            </tr>
+            <tr>
+              <td class='menu'>
+              <img src='images/arrow.gif'>
+              <a href='info/about.php' class='mainpage'>About the platform</a>
+              </td>
+            </tr>
+            <tr>
+              <td class='menu' style='padding-bottom: 60px;'>
+              <img src='images/arrow.gif'>
+              <a href='info/contact.php' class='mainpage'>Contact</a>
+              </td>
+            </tr>
+            </table>
+            <table align=center valign=bottom border=0 cellpadding='0' cellspacing='0' width='100%'>
+            <tr>
+              <td valign=bottom align=center height=160>
+              <img src='images/ktp2.gif' align=center valign=bottom title="Κοινωνία της Πληροφορίας" border=0>
+              </td>
+            </tr>
+            </table>
+          </td>
+	
+      <td width='75%' class='td_main' valign='top' height='400'> 
+      
+      <table align=center border=0 cellpadding='0' cellspacing='0'>
+      <tr><td class=td_main>&nbsp;</td></tr>
+      <tr>
+        <td width=300 height=181 valign=top style="background-image:url(/vulnuni-eclass/images/table_layout.jpg)" style="background-repeat : no-repeat;">  
+        <div align=center><b>Enter</b></div><br>
+        <form action="http://vulnuni.local/vulnuni-eclass/" method="post">
+        <div align="center"><small>Username</small><br>
+        <input style='width:150px; heigth:20px;' name="uname" size="20"><br>
+        <small>Password</small><br>
+        <input style='width:150px; height:20px;' name="pass" type="password" size="20"><br>
+        <input value="Enter" name="submit" type="submit"><br><br>
+
+				<a href="modules/help/help.php?topic=Init" class='mainpage' onClick="window.open('modules/help/help.php?topic=Init','help','toolbar=no,location=no,directories=no,status=yes,menubar=no,scrollbars=yes,resizable=yes,width=400,height=500,left=300,top=10'); return false;">
+<img src='images/help.gif' border=0 title='Βοήθεια' align='absbottom'></img></a>
+&nbsp;<a href="modules/auth/lostpass.php" class='help_topic'>Forgot your password?</a>
+	</div>
+        </form>
+        </td>
+      </tr>
+      </table>
+      <table width=100% align=center border=0 cellpadding='0' cellspacing='0'>
+      <tr>
+        <td align=center>
+      <b><font color=red><span class='labeltext'>Wrong username or password.<br>
+									</span><br></font></b>        </td>
+      </tr>
+      </table>
+      <div style="padding-top: 4px; padding-left: 20px; padding-right:20px; padding-bottom: 5px;">
+      <div style="font-family:Verdana; font-size:11px;" align="justify"></div>      </div>
+      </td>
+
+</tr></table>
+<!-- Start of Table Footer -->
+<table width="800" border=0 align="center" cellpadding="0" cellspacing="0">
+<tr>
+   <td>
+        <table width=800  align=center border="0" cellspacing="0" cellpadding="0">
+        <tr>
+           <td align=left class=td_footer style="background-image:url(/vulnuni-eclass/images/bg.gif)">&copy; <a href="info/copyright.php" class=footer>GUnet 2003-2007</a></td>
+           <td align=right class=td_footer style="background-image:url(/vulnuni-eclass/images/bg.gif)">
+           <script type="text/javascript">
+           var dayNames = new Array("Κυριακή","Δευτέρα","Τρίτη","Τετάρτη","Πέμπτη","Παρασκευή","Σάββατο");
+           var monthNames = new Array("Ιανουαρίου","Φεβρουαρίου","Μαρτίου","Απριλίου","Μαϊου","Ιουνίου","Ιουλίου","Αυγούστου","Σεπτεμβρίου","Οκτωβρίου","Νοεμβρίου","Δεκεμβρίου");
+           var dt = new Date();
+           var y  = dt.getYear();
+           if (y < 1000) y +=1900;
+           document.write(dayNames[dt.getDay()] + "  " + dt.getDate() + " " + monthNames[dt.getMonth()] + " " + y);
+           </script>
+           </td>
+        </tr>
+        </table>
+   </td>
+</tr>
+</table>
+<!-- End of Table Footer -->
+</body> 
+</html>

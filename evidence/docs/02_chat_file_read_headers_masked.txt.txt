@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Tue, 17 Feb 2026 14:19:28 GMT
+Server: Apache/2.2.22 (Ubuntu)
+X-Powered-By: PHP/5.3.10-1ubuntu3.26
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Content-Disposition: inline; filename="chat.2020-03-18-024.txt"
+Content-Transfer-Encoding: binary
+Content-Length: 178
+Vary: Accept-Encoding
+Content-Type: text/plain
+
+18-03-2020 01:35:38 - Smith John : Dear students, here you can communicate about course related topics.
+18-03-2020 01:35:48 - Smith John : Please keep the chatroom clean of spam

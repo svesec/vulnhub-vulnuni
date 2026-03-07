@@ -1,0 +1,12 @@
+# Nmap 7.95 scan initiated Mon Dec 22 11:39:17 2025 as: /usr/lib/nmap/nmap -sC -sV -p- -T4 -oA nmap/initial TARGET_IP
+Nmap scan report for TARGET_IP
+Host is up (0.00068s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.2.22 ((Ubuntu))
+|_http-title: VulnUni - We train the top Information Security Professionals
+|_http-server-header: Apache/2.2.22 (Ubuntu)
+MAC Address: XX:XX:XX:XX:XX:XX (VMware)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Dec 22 11:39:48 2025 -- 1 IP address (1 host up) scanned in 30.83 seconds

@@ -1,0 +1,49 @@
+           <form action="/vulnuni-eclass/modules/auth/formuser.php" method="post">
+           <FIELDSET style="PADDING-RIGHT: 7px; PADDING-LEFT: 7px; PADDING-BOTTOM: 7px; PADDING-TOP: 7px">
+           <LEGEND>Registration</LEGEND>
+	   <table border="0" align="center" cellpadding="3" cellspacing="0" class=td_main>
+	   <tr><td colspan="2"><small></small></td></tr>
+	   <tr>
+	    <td class='labeltext'>First Name</td>
+            <td><input type="text" name="name" value="" class="auth_input"><small>&nbsp;(*)</small></td>
+           </tr>
+	   <tr valign="top">
+	    <td class='labeltext'>Surname</td>
+	    <td><input type="text" name="surname" value="" class="auth_input"><small>&nbsp;(*)</small></td>
+	  </tr>
+	  <tr>
+	    <td class='labeltext'>Telephone</td>
+	    <td><input type="text" name="userphone" value="" class="auth_input"><small>&nbsp;(*)</small></td>
+	  </tr>
+	  <tr>
+	    <td class='labeltext'>Professor User Name</td>
+	    <td><input type="text" name="username" size="20" maxlength="20" value="" class="auth_input"><small>&nbsp;(*)</small></td>
+	  </tr>
+	  <tr>
+	    <td class='labeltext'>&nbsp;</td>
+	    <td><small>(max 20 characters)</small></td>
+	  </tr>
+	  <tr>
+  	    <td class='labeltext'>User E-mail</td>
+            <td><input type="text" name="usermail" value="" class="auth_input"><small>&nbsp;(*)</small></td>
+          </tr>	
+	  <tr>
+  	    <td class='labeltext'><br><span class='explanationtext'>(Describe the reasons for using the platform)</td>
+            <td><textarea name="usercomment" COLS="30" ROWS="4" WRAP="SOFT" class="auth_input"></textarea>
+	    <small>&nbsp;(*)</small></td>
+	  </tr>
+	  <tr>
+	    <td class='labeltext'>Department&nbsp;:</td>
+   	    <td><select name="department" class="auth_input">
+
+            <option value="Cyber Security">Cyber Security</option>
+            </select>
+            </td>
+	  </tr>				
+	  <tr>
+	    <td>&nbsp;</td>
+	    <td><input type="submit" class="ButtonSubmit" name="Add" value="Send">&nbsp;&nbsp;&nbsp;&nbsp;<small>(fields marked by (*) are required)</small></td>
+	  </tr>
+	  </table>
+        </FIELDSET>
+        </form>
