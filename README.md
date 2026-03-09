@@ -158,7 +158,7 @@ Using the extracted credentials, access to the administrative panel was achieved
 
 Within the configuration interface, database credentials were exposed.
 
-![DB Credentials Exposure](evidence/screenshots/20_admin_confinfo_db_credentials_exposed.png)
+![DB Credentials Exposure](evidence/screenshots/20_admin_confInfo_db_credentials_exposed.png)
 
 
 ------------------------------------------------------------
